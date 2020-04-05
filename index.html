@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+  <style>
+  img {
+   display: block;
+   margin-left: 10px;
+   margin-right: auto;
+  }
+  </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sally Student Resume
+    <meta name="Sally Student Resume" content="Sally's Resume. Candidate for hire. Qualified">
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+    <script
+        src="https://unpkg.com/react@16/umd/react.development.js"> // Load React, creates global variable React
+      </script>
+      <script
+        src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"> // Load ReactDOM, o use React when building webpages, we need the React-DOM part of the library, react-dom.development.js
+        // using development versions xxx.development.js, as they give us more detailed error messages which are helpful when developing.
+      </script>
+      <script
+      src="https://unpkg.com/babel-standalone@6/babel.min.js"> // use Babel to activate JSX
+    </script>
+    <div id='poop'></div>
+
+    <script type="text/babel">
+    const sallyStudent =
+    /*<section> // this code doesn't work here: Adjacent JSX elements must be wrapped in an enclosing tag
+            <header style="text-align:center;">Sally Student Resume </header>
+        
+        
+        <h1>Contact Information</h1>
+        <div>Name: Sally Student, Email: pfyrtu@gmail.com, Phone Number: 303-666-3385</div>
+
+        <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" width="292" height="438" alt="Picture of Sally Student">
+        </img>
+        </section>*/
+<main>
+        <section>
+            <header>Sally Student Resume </header>
+        
+        
+        <h1>Contact Information</h1>
+        <div>Name: Sally Student, Email: pfyrtu@gmail.com, Phone Number: 303-666-3385</div>
+
+        <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" width="292" height="438" alt="Picture of Sally Student">
+        </img>
+        </section>
+
+<section>
+  <h2>Education History
+  </h2>
+    <p>
+    University of Slowmo Fashodo
+      <span className='dates'>
+        2018 - 2018
+      </span>
+    </p>
+</section>
+
+<section>
+  <h3>Employment History
+  </h3>
+    <p>
+    South Pole Inc. - Opposite Santa
+      <span className='dates'>
+        2019 -2020
+      </span>
+    </p>
+    <p>- Took over 567 things from children<br></br>
+    - Launched up 200 chimneys<br></br>
+    - Vomited countless cookies onto kitchen plates
+    </p>
+    <p>
+    Courtesy Skirts LLC. - Skirt Herder
+      <span className='dates'>
+        2020 -2021
+      </span>
+    </p>
+    <p>- Herded Skirts fer the worst person fersher<br></br>
+    - Bursted purse fer turns erv kernerperts<br></br>
+    - Ermergerd dersernt thers rersermer lerk gerd
+    </p>
+</section>
+
+</main>
+ReactDOM.render(
+    sallyStudent, document.querySelector('#poop')
+);
+    </script>
+
+</body>
+
+</html>
